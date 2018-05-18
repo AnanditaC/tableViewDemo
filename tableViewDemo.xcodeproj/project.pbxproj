@@ -14,6 +14,9 @@
 		43915C8A20AE9D1A00FA7690 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 43915C8920AE9D1A00FA7690 /* main.m */; };
 		43915C9420AE9D1A00FA7690 /* tableViewDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 43915C9320AE9D1A00FA7690 /* tableViewDemoTests.m */; };
 		43915C9F20AE9D1A00FA7690 /* tableViewDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 43915C9E20AE9D1A00FA7690 /* tableViewDemoUITests.m */; };
+		43B7DB9520AEBA7D0066F4F3 /* Model.m in Sources */ = {isa = PBXBuildFile; fileRef = 43B7DB9420AEBA7D0066F4F3 /* Model.m */; };
+		43B7DB9A20AEBBB70066F4F3 /* NetworkAPIManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 43B7DB9920AEBBB70066F4F3 /* NetworkAPIManager.m */; };
+		43B7DB9F20AEBD8C0066F4F3 /* ItemCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 43B7DB9E20AEBD8C0066F4F3 /* ItemCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +52,12 @@
 		43915C9A20AE9D1A00FA7690 /* tableViewDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = tableViewDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		43915C9E20AE9D1A00FA7690 /* tableViewDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = tableViewDemoUITests.m; sourceTree = "<group>"; };
 		43915CA020AE9D1A00FA7690 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		43B7DB9320AEBA7D0066F4F3 /* Model.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Model.h; sourceTree = "<group>"; };
+		43B7DB9420AEBA7D0066F4F3 /* Model.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Model.m; sourceTree = "<group>"; };
+		43B7DB9820AEBBB70066F4F3 /* NetworkAPIManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NetworkAPIManager.h; sourceTree = "<group>"; };
+		43B7DB9920AEBBB70066F4F3 /* NetworkAPIManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NetworkAPIManager.m; sourceTree = "<group>"; };
+		43B7DB9D20AEBD8C0066F4F3 /* ItemCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ItemCell.h; sourceTree = "<group>"; };
+		43B7DB9E20AEBD8C0066F4F3 /* ItemCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ItemCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +88,9 @@
 		43915C6E20AE9D1A00FA7690 = {
 			isa = PBXGroup;
 			children = (
+				43B7DB9C20AEBD5E0066F4F3 /* CustomCell */,
+				43B7DB9B20AEBBC40066F4F3 /* ServiceCalls */,
+				43B7DB9720AEBA9C0066F4F3 /* Model */,
 				43915C7920AE9D1A00FA7690 /* tableViewDemo */,
 				43915C9220AE9D1A00FA7690 /* tableViewDemoTests */,
 				43915C9D20AE9D1A00FA7690 /* tableViewDemoUITests */,
@@ -127,6 +139,33 @@
 				43915CA020AE9D1A00FA7690 /* Info.plist */,
 			);
 			path = tableViewDemoUITests;
+			sourceTree = "<group>";
+		};
+		43B7DB9720AEBA9C0066F4F3 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				43B7DB9320AEBA7D0066F4F3 /* Model.h */,
+				43B7DB9420AEBA7D0066F4F3 /* Model.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		43B7DB9B20AEBBC40066F4F3 /* ServiceCalls */ = {
+			isa = PBXGroup;
+			children = (
+				43B7DB9820AEBBB70066F4F3 /* NetworkAPIManager.h */,
+				43B7DB9920AEBBB70066F4F3 /* NetworkAPIManager.m */,
+			);
+			name = ServiceCalls;
+			sourceTree = "<group>";
+		};
+		43B7DB9C20AEBD5E0066F4F3 /* CustomCell */ = {
+			isa = PBXGroup;
+			children = (
+				43B7DB9D20AEBD8C0066F4F3 /* ItemCell.h */,
+				43B7DB9E20AEBD8C0066F4F3 /* ItemCell.m */,
+			);
+			path = CustomCell;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -261,9 +300,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				43B7DB9F20AEBD8C0066F4F3 /* ItemCell.m in Sources */,
 				43915C7F20AE9D1A00FA7690 /* ViewController.m in Sources */,
 				43915C8A20AE9D1A00FA7690 /* main.m in Sources */,
 				43915C7C20AE9D1A00FA7690 /* AppDelegate.m in Sources */,
+				43B7DB9A20AEBBB70066F4F3 /* NetworkAPIManager.m in Sources */,
+				43B7DB9520AEBA7D0066F4F3 /* Model.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
