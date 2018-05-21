@@ -6,8 +6,28 @@
 	<dict>
 		<key>tableViewDemo.xcscheme</key>
 		<dict>
+			<key>isShown</key>
+			<true/>
 			<key>orderHint</key>
-			<integer>0</integer>
+			<integer>1</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>43915C7620AE9D1A00FA7690</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>43915C8E20AE9D1A00FA7690</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>43915C9920AE9D1A00FA7690</key>
+		<dict>
+			<key>primary</key>
+			<true/>
 		</dict>
 	</dict>
 </dict>

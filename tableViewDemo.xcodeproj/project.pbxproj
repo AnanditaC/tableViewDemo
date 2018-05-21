@@ -7,13 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4312090920B2ADAE0038E5E0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 43915C7E20AE9D1A00FA7690 /* ViewController.m */; };
 		43915C7C20AE9D1A00FA7690 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 43915C7B20AE9D1A00FA7690 /* AppDelegate.m */; };
 		43915C7F20AE9D1A00FA7690 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 43915C7E20AE9D1A00FA7690 /* ViewController.m */; };
 		43915C8420AE9D1A00FA7690 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 43915C8320AE9D1A00FA7690 /* Assets.xcassets */; };
 		43915C8720AE9D1A00FA7690 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 43915C8520AE9D1A00FA7690 /* LaunchScreen.storyboard */; };
 		43915C8A20AE9D1A00FA7690 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 43915C8920AE9D1A00FA7690 /* main.m */; };
 		43915C9420AE9D1A00FA7690 /* tableViewDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 43915C9320AE9D1A00FA7690 /* tableViewDemoTests.m */; };
-		43915C9F20AE9D1A00FA7690 /* tableViewDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 43915C9E20AE9D1A00FA7690 /* tableViewDemoUITests.m */; };
 		43B7DB9520AEBA7D0066F4F3 /* Model.m in Sources */ = {isa = PBXBuildFile; fileRef = 43B7DB9420AEBA7D0066F4F3 /* Model.m */; };
 		43B7DB9A20AEBBB70066F4F3 /* NetworkAPIManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 43B7DB9920AEBBB70066F4F3 /* NetworkAPIManager.m */; };
 		43B7DB9F20AEBD8C0066F4F3 /* ItemCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 43B7DB9E20AEBD8C0066F4F3 /* ItemCell.m */; };
@@ -313,6 +313,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4312090920B2ADAE0038E5E0 /* ViewController.m in Sources */,
 				43915C9420AE9D1A00FA7690 /* tableViewDemoTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -321,7 +322,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				43915C9F20AE9D1A00FA7690 /* tableViewDemoUITests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
